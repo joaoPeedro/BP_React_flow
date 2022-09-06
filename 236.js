@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremote=self.webpackChunkremote||[]).push([[236],{236:(e,t,l)=>{l.r(t),l.d(t,{default:()=>u});var n=l(950),r=l.n(n);const u=function(){return r().createElement("div",null,"this will be a FlowChart")}}}]);

@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>remote</title><script defer="defer" src="http://localhost:3000/main.js"></script><script defer="defer" src="http://localhost:3000/remoteEntry.js"></script></head><body><style>.st0{fill:none;stroke:#000000;stroke-width:35;stroke-miterlimit:10;}
+		.st1{fill:none;stroke:#3C3CCE;stroke-width:35;stroke-miterlimit:10;}
+    img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.react-flow__node:hover:before {
+  content: "*double click to open context menu";
+  position: absolute;
+  bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-size: 6px;
+  font-weight: 400;
+}
+
+.react-flow__node.selected.selectable > div > svg * {
+    stroke: rebeccapurple !important;
+    stroke-width: 1px;
+}
+
+*[draggable] {
+    cursor: grab;
+}</style><div id="app"></div></body></html>
